@@ -1,0 +1,24 @@
+{
+  "name": "routing-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "make db",
+    "test": "make test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.35",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0"
+  }
+}
